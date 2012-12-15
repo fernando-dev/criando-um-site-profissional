@@ -1,0 +1,111 @@
+/* 
+Style
+*/
+@import "reset.css";
+@import "grid.css";
+@import "tipografia.css";
+@import "form.css";
+
+body {
+    background: #fff url("../images/background.jpg") repeat-x top;
+}
+
+#main {
+    margin: 0 auto;
+}
+
+#header {
+    height: 138px;
+}
+.logo {
+    height: 90px;
+    background: url("../images/logo.png") no-repeat 50% 50%;
+    text-indent: -9999px;
+    margin: 25px 0 0 0;
+}
+
+#social {
+    margin: 30px 0 0 0;
+}
+#social a {
+    float: right;
+    display: block;
+    width: 53px;
+    height: 42px;
+    text-indent: -99999px;
+    background: url("../images/social.png") no-repeat;
+    margin: 0 4px;
+    
+    transition: All 0.5s ease;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+}
+
+#social a.twitter {
+	background-position: 0 0;
+}
+#social a.facebook {
+	background-position: -55px 0;
+}
+#social a.linkedin {
+	background-position: -110px 0;
+}
+
+#social a:hover {
+	transform: rotate(25deg) scale(1.50) skew(1deg) translate(0px);
+	-webkit-transform: rotate(25deg) scale(1.50) skew(1deg) translate(0px);
+	-moz-transform: rotate(25deg) scale(1.50) skew(1deg) translate(0px);
+	-o-transform: rotate(25deg) scale(1.50) skew(1deg) translate(0px);
+	-ms-transform: rotate(25deg) scale(1.50) skew(1deg) translate(0px);
+}
+
+#formsearch {
+	margin: 10px 0 0 0;
+}
+#formsearch input {
+	float: right;
+	background: url("../images/bg-search.png") no-repeat left center transparent;
+	border: none;
+	padding: 5px 30px 5px 8px;
+	width: 145px;
+	font-size: 12px;
+	color: #959595;
+}
+
+#menu {
+	height: 40px;
+	border: none;
+	border-top: 1px dotted #333;
+	border-bottom: 1px dotted #333;
+	margin: 10px 0;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li {
+	float: left;
+}
+#menu ul li a {
+	display: block;
+	padding: 9px 30px 7px;
+	color: #4d4d52;
+	font-weight: bold; 
+	border-bottom: 3px solid transparent;
+	
+    transition: All 0.4s ease;
+	-webkit-transition: All 0.4s ease;
+	-moz-transition: All 0.4s ease;
+	-o-transition: All 0.4s ease;
+}
+#menu ul li a:hover {
+	border-color: #242424;
+}
+
+
+
+
+
+
