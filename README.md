@@ -32,4 +32,3 @@ Tópicos:
 
 8(final) - Enviando o site para o servidor e testando o formulário de contato
 
-http://fernandomoreiraweb.com/exemplos/va-criando-um-site-completo
