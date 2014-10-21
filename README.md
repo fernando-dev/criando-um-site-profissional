@@ -1,4 +1,4 @@
-=== "Criando um site profissional e completo" ===
+# "Criando um site profissional e completo"
 
 Tópicos:
 1 - Fatiando imagens necessárias no photoshop
